@@ -1,0 +1,230 @@
+html,body {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #11073E;
+    font-family: 'Oswald';
+
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('./fontes/Oswald-VariableFont_wght.ttf');
+}
+
+.div-container-lading {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    
+}
+.div-icon{
+    width: 15%;
+    display: flex;
+    justify-content: end;
+}
+.icon{
+    height: 60px;
+    margin-bottom: 6%;
+}
+
+.div-header-esquerda {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    width: 50%;
+
+    height: 100%;
+
+}
+
+.div-header-direita {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 35%;
+
+    height: 100%;
+
+}
+.but-sight{
+    font-size: 45px;
+    
+}
+.but-D{
+    
+    color: rgba(0, 0, 0, 0.658);
+}
+
+#home-bttn{
+    color: #918EF3;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: whitesmoke;
+    
+}
+
+button {
+    background-color: transparent;
+    color: #918EF3;
+    border: 0;
+    cursor: pointer;
+    /* margin-bottom: 2%; */
+    font-size: 17px;
+    
+}
+
+
+.meio-container{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .infos{
+        width: 80%;
+        height: 60%;
+        background-color: rgb(238, 230, 230);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 0;
+        border-radius: 20px;
+        box-shadow: 10 0 80 black;
+    }
+
+        .input-pesquisa-aviao{
+            width: 400px;
+            height: 60%;
+            border: 0 solid;
+            border-radius: 10px;
+            padding-left:10px;
+        }
+        .input-select-date{
+            height: 60%;
+            width: 120px;
+            border: 0;
+            border-radius: 10px;
+            padding-left:10px;
+        }
+        .input-select-hours{
+            height: 60%;
+            border-radius: 10px;
+            width: 120px;
+            border: 0;
+            border-radius: 10px;
+            border-radius: 10px;
+            padding-left:10px;
+        }
+        .select-people{
+            height: 60%;
+            width: 130px;
+            border: 0;
+            border-radius: 10px;
+            padding-left:10px;
+        }
+        .pagamento{
+            font-size: 20px;
+            padding: 10px;
+            width: 130px;
+            text-align: center;
+            background-color: #918EF3;
+            border-radius: 20px;
+            cursor: pointer;
+            color: white;
+        }
+        .pagamento:hover{
+
+            box-shadow: inset 0 0 10px 3px whitesmoke;
+            transition: 1.2s;
+        }
+
+    
+
+.section-container{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: 100hz;
+}
+
+    .section-esquerda {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(241, 241, 241);
+        height: 100%;
+        width: 55%;  
+        justify-content: space-around;
+    }
+    
+    .section-prg-container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        color: whitesmoke;
+        background-color: #11073E;
+    }
+    
+    p{
+        margin: 0px 200px 0px 200px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .section-lbl-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30%;
+        background-color: #11073E;
+        color: whitesmoke;
+    }
+    
+    .section-lbl{
+        font-size: 50px;
+    }
+    
+    .section-bttn-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 25%;
+        background-color: #11073E;
+    }
+    .section-bttn{
+        background-color: #fda310;
+        width: 150px;
+        height: 50px;
+        color: black;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    .section-bttn:hover{
+    
+        transition: 1.2s;
+        box-shadow: inset 0 0 10px 3px #918EF3;
+    }
+    
+    .section-direita {
+        display: flex;
+        background-color: yellow;
+        height: 100%;
+        width: 40%;
+        
+    }
+    
+    .section-img{
+        object-fit: cover;
+    }
+    
