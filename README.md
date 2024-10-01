@@ -1,6 +1,6 @@
 # SaleSight
 
-Um projeto da aula de modelagem para nossa futura SA fase2a.
+Um projeto da aula de modelagem de sistemas para nossa futura SA fase2a.
 
 ## Descrição
 SaleSight é uma aplicação web para gerenciamento de vendas e análise de dados. Com ele, você pode acompanhar suas vendas, visualizar relatórios e tomar decisões estratégicas para impulsionar seu negócio.
